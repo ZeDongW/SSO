@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+        <property name="jdbcUrl">jdbc:oracle:thin:@192.168.39.132:1521:orcl</property>
+        <property name="user">zedongw</property>
+        <property name="password">ZeDongW@oracle553</property>
+        <property name="initialPoolSize">3</property>
+        <property name="maxPoolSize">6</property>
+        <property name="maxIdleTime">3000</property>
+    </default-config>
+</c3p0-config>
